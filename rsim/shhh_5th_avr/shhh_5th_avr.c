@@ -58,7 +58,7 @@ void GetButtonState(struct ButtonState* pButtonState)
 
 void SetColumn(uint8_t c)
 {
-	c = c & 0x00001111;
+	c = c & 0b00001111;
 	PORTD = (PORTD & 0b01111111) | ((c & 0b00000001) << PORTD7);
 	
 	c = (c >> 1) & 0b00000111;

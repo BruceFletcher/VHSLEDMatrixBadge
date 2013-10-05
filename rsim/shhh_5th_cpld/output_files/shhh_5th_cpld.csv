@@ -1,0 +1,67 @@
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+
+# Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# File: C:\Dropbox\Electronics\VHS\SHBHH-5th\shhh_5th_cpld\output_files\shhh_5th_cpld.csv
+# Generated on: Fri Sep 06 01:34:01 2013
+
+# Note: The column header names should not be changed if you wish to import this .csv file into the Quartus II software.
+
+To,Direction,Location,I/O Bank,Fitter Location,I/O Standard,Reserved,Current Strength,Differential Pair,Weak Pull-Up Resistor
+in_button[4],Input,PIN_33,1,PIN_33,,,,,On
+in_button[3],Input,PIN_32,1,PIN_32,,,,,On
+in_button[2],Input,PIN_31,1,PIN_31,,,,,On
+in_button[1],Input,PIN_30,1,PIN_30,,,,,On
+in_button[0],Input,PIN_27,1,PIN_27,,,,,On
+in_column[3],Input,PIN_22,1,PIN_22,,,,,
+in_column[2],Input,PIN_21,1,PIN_21,,,,,
+in_column[1],Input,PIN_20,1,PIN_20,,,,,
+in_column[0],Input,PIN_19,1,PIN_19,,,,,
+in_row_clk,Input,PIN_7,1,PIN_7,,,,,
+in_row_data,Input,PIN_18,1,PIN_18,,,,,
+out_button[2],Output,PIN_24,1,PIN_24,,,,,
+out_button[1],Output,PIN_25,1,PIN_25,,,,,
+out_button[0],Output,PIN_26,1,PIN_26,,,,,
+out_column[15],Output,PIN_61,2,PIN_61,,,,,
+out_column[14],Output,PIN_60,2,PIN_60,,,,,
+out_column[13],Output,PIN_59,2,PIN_59,,,,,
+out_column[12],Output,PIN_58,2,PIN_58,,,,,
+out_column[11],Output,PIN_56,2,PIN_56,,,,,
+out_column[10],Output,PIN_55,2,PIN_55,,,,,
+out_column[9],Output,PIN_54,2,PIN_54,,,,,
+out_column[8],Output,PIN_53,2,PIN_53,,,,,
+out_column[7],Output,PIN_52,2,PIN_52,,,,,
+out_column[6],Output,PIN_51,2,PIN_51,,,,,
+out_column[5],Output,PIN_50,2,PIN_50,,,,,
+out_column[4],Output,PIN_49,2,PIN_49,,,,,
+out_column[3],Output,PIN_48,2,PIN_48,,,,,
+out_column[2],Output,PIN_47,2,PIN_47,,,,,
+out_column[1],Output,PIN_46,2,PIN_46,,,,,
+out_column[0],Output,PIN_45,2,PIN_45,,,,,
+out_row[15],Output,PIN_42,2,PIN_42,,,,,
+out_row[14],Output,PIN_40,2,PIN_40,,,,,
+out_row[13],Output,PIN_38,2,PIN_38,,,,,
+out_row[12],Output,PIN_37,2,PIN_37,,,,,
+out_row[11],Output,PIN_36,2,PIN_36,,,,,
+out_row[10],Output,PIN_35,2,PIN_35,,,,,
+out_row[9],Output,PIN_34,2,PIN_34,,,,,
+out_row[8],Output,PIN_12,1,PIN_12,,,,,
+out_row[7],Output,PIN_11,1,PIN_11,,,,,
+out_row[6],Output,PIN_10,1,PIN_10,,,,,
+out_row[5],Output,PIN_9,1,PIN_9,,,,,
+out_row[4],Output,PIN_5,1,PIN_5,,,,,
+out_row[3],Output,PIN_4,1,PIN_4,,,,,
+out_row[2],Output,PIN_3,1,PIN_3,,,,,
+out_row[1],Output,PIN_2,1,PIN_2,,,,,
+out_row[0],Output,PIN_1,1,PIN_1,,,,,

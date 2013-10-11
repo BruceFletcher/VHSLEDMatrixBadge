@@ -1,0 +1,135 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2013 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+# Date created = 15:00:29  August 25, 2013
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		shhh_5th_cpld_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "MAX V"
+set_global_assignment -name DEVICE 5M80ZE64C4
+set_global_assignment -name TOP_LEVEL_ENTITY shhh_5th_cpld
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "15:00:29  AUGUST 25, 2013"
+set_global_assignment -name LAST_QUARTUS_VERSION "13.0 SP1"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR "-1"
+set_global_assignment -name VERILOG_FILE shhh_5th_cpld.v
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name AUTO_RESTART_CONFIGURATION OFF
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name GENERATE_RBF_FILE ON
+set_global_assignment -name RESERVE_ALL_UNUSED_PINS "AS INPUT TRI-STATED WITH WEAK PULL-UP"
+set_location_assignment PIN_62 -to in_button[4]
+set_location_assignment PIN_63 -to in_button[3]
+set_location_assignment PIN_64 -to in_button[2]
+set_location_assignment PIN_60 -to in_button[1]
+set_location_assignment PIN_61 -to in_button[0]
+set_location_assignment PIN_24 -to out_button[2]
+set_location_assignment PIN_25 -to out_button[1]
+set_location_assignment PIN_26 -to out_button[0]
+set_location_assignment PIN_40 -to in_row_clk
+set_location_assignment PIN_38 -to in_row_data
+set_location_assignment PIN_1 -to out_row[0]
+set_location_assignment PIN_10 -to out_row[1]
+set_location_assignment PIN_2 -to out_row[2]
+set_location_assignment PIN_9 -to out_row[3]
+set_location_assignment PIN_3 -to out_row[4]
+set_location_assignment PIN_7 -to out_row[5]
+set_location_assignment PIN_4 -to out_row[6]
+set_location_assignment PIN_5 -to out_row[7]
+set_location_assignment PIN_11 -to out_row[8]
+set_location_assignment PIN_22 -to out_row[9]
+set_location_assignment PIN_12 -to out_row[10]
+set_location_assignment PIN_21 -to out_row[11]
+set_location_assignment PIN_13 -to out_row[12]
+set_location_assignment PIN_20 -to out_row[13]
+set_location_assignment PIN_18 -to out_row[14]
+set_location_assignment PIN_19 -to out_row[15]
+set_location_assignment PIN_46 -to out_column[0]
+set_location_assignment PIN_45 -to out_column[1]
+set_location_assignment PIN_44 -to out_column[2]
+set_location_assignment PIN_55 -to out_column[15]
+set_location_assignment PIN_56 -to out_column[14]
+set_location_assignment PIN_58 -to out_column[13]
+set_location_assignment PIN_59 -to out_column[12]
+set_location_assignment PIN_51 -to out_column[11]
+set_location_assignment PIN_52 -to out_column[10]
+set_location_assignment PIN_53 -to out_column[9]
+set_location_assignment PIN_54 -to out_column[8]
+set_location_assignment PIN_50 -to out_column[7]
+set_location_assignment PIN_49 -to out_column[6]
+set_location_assignment PIN_48 -to out_column[5]
+set_location_assignment PIN_47 -to out_column[4]
+set_location_assignment PIN_43 -to out_column[3]
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "NO HEAT SINK WITH STILL AIR"
+set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY ON -section_id eda_simulation
+set_global_assignment -name VERILOG_TEST_BENCH_FILE shhh_5th_cpld_tb.v
+set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH shhh_5th_cpld_tb -section_id eda_simulation
+set_global_assignment -name EDA_TEST_BENCH_NAME shhh_5th_cpld_tb -section_id eda_simulation
+set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id shhh_5th_cpld_tb
+set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME shhh_5th_cpld_tb -section_id shhh_5th_cpld_tb
+set_global_assignment -name EDA_TEST_BENCH_FILE shhh_5th_cpld_tb.v -section_id shhh_5th_cpld_tb
+set_location_assignment PIN_37 -to in_column[0]
+set_location_assignment PIN_34 -to in_column[3]
+set_location_assignment PIN_35 -to in_column[2]
+set_location_assignment PIN_36 -to in_column[1]
+set_global_assignment -name SYNTH_TIMING_DRIVEN_SYNTHESIS OFF
+set_global_assignment -name ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP OFF
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[0]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[1]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[2]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[15]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[14]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[13]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[12]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[11]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[10]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[9]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[8]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[7]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[6]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[5]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[4]
+set_instance_assignment -name AUTO_OPEN_DRAIN_PINS ON -to out_column[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to in_button[4]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to in_button[3]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to in_button[2]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to in_button[1]
+set_instance_assignment -name WEAK_PULL_UP_RESISTOR ON -to in_button[0]

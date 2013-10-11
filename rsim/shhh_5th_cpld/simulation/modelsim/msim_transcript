@@ -1,0 +1,147 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do shhh_5th_cpld_run_msim_gate_verilog.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+. {shhh_5th_cpld.vo}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shhh_5th_cpld
+# 
+# Top level modules:
+# 	shhh_5th_cpld
+# 
+# vlog -vlog01compat -work work +incdir+C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld {C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module shhh_5th_cpld_tb
+# 
+# Top level modules:
+# 	shhh_5th_cpld_tb
+# 
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L maxv_ver -L gate_work -L work -voptargs="+acc"  shhh_5th_cpld_tb
+# vsim +transport_int_delays +transport_path_delays -L maxv_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps shhh_5th_cpld_tb 
+# Loading work.shhh_5th_cpld_tb
+# Loading work.shhh_5th_cpld
+# Loading maxv_ver.maxv_io
+# Loading maxv_ver.maxv_lcell
+# Loading maxv_ver.maxv_asynch_lcell
+# Loading maxv_ver.maxv_lcell_register
+# SDF 10.1d Compiler 2012.11 Nov  2 2012
+# 
+# Loading instances from shhh_5th_cpld_v.sdo
+# Loading timing data from shhh_5th_cpld_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /shhh_5th_cpld_tb File: C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Row PASSED
+# Button PASSED
+# ERROR in signal out_column:
+# zzzzzzzzzzzzzzz0
+# expected:
+# 000000000000000z
+# column is:
+#  0
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# Row PASSED
+# ERROR in signal out_column:
+# zzzzzzzzzzzzzz0z
+# expected:
+# 00000000000000z0
+# column is:
+#  1
+# ERROR in signal out_column:
+# zzzzzzzzzzzzz0zz
+# expected:
+# 0000000000000z00
+# column is:
+#  2
+# ERROR in signal out_column:
+# zzzzzzzzzzzz0zzz
+# expected:
+# 000000000000z000
+# column is:
+#  3
+# ERROR in signal out_column:
+# zzzzzzzzzzz0zzzz
+# expected:
+# 00000000000z0000
+# column is:
+#  4
+# ERROR in signal out_column:
+# zzzzzzzz0zzzzzzz
+# expected:
+# 00000000z0000000
+# column is:
+#  7
+# ERROR in signal out_column:
+# zzzzzzz0zzzzzzzz
+# expected:
+# 0000000z00000000
+# column is:
+#  8
+# ERROR in signal out_column:
+# z0zzzzzzzzzzzzzz
+# expected:
+# 0z00000000000000
+# column is:
+# 14
+# ERROR in signal out_column:
+# 0zzzzzzzzzzzzzzz
+# expected:
+# z000000000000000
+# column is:
+# 15
+# ERROR in signal out_column:
+# zzzzzzzzzzzzzzz0
+# expected:
+# 000000000000000z
+# column is:
+#  0
+# ERROR in signal out_column:
+# zzzzzzzzzzzzzz0z
+# expected:
+# 00000000000000z0
+# column is:
+#  1
+# Button PASSED
+# Button PASSED
+# Button PASSED
+# Button PASSED
+# Button PASSED
+# Button PASSED
+# Button PASSED
+# ** Note: $finish    : C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v(118)
+#    Time: 5300 ns  Iteration: 0  Instance: /shhh_5th_cpld_tb

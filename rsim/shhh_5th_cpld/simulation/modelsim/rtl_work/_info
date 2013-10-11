@@ -1,0 +1,25 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Dropbox\Electronics\VHS\SHBHH-5th\shhh_5th_cpld\simulation\modelsim
+vshhh_5th_cpld
+!i10b 1
+!s100 [OWbaJWX=`:8UkA?ebOW[2
+IPNlSMVT6ghKcXj[E@4YZ=0
+V?3R2NQa6idAFT;3aNEA`R3
+Z1 dC:\Dropbox\Electronics\VHS\SHBHH-5th\shhh_5th_cpld\simulation\modelsim
+w1378357615
+8C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld.v
+FC:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1378360083.013000
+!s107 C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld|C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld -O0

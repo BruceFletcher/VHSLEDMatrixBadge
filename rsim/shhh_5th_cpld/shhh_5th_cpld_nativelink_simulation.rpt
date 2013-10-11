@@ -1,0 +1,169 @@
+Info: Start Nativelink Simulation process
+
+========= EDA Simulation Settings =====================
+
+Sim Mode              :  Gate
+Family                :  maxv
+Quartus root          :  c:/altera/13.0sp1/quartus/bin64/
+Quartus sim root      :  c:/altera/13.0sp1/quartus/eda/sim_lib
+Simulation Tool       :  modelsim-altera
+Simulation Language   :  verilog
+Simulation Mode       :  GUI
+Sim Output File       :  shhh_5th_cpld.vo
+Sim SDF file          :  shhh_5th_cpld__verilog.sdo
+Sim dir               :  simulation\modelsim
+
+=======================================================
+
+Info: Starting NativeLink simulation with ModelSim-Altera software
+Sourced NativeLink script c:/altera/13.0sp1/quartus/common/tcl/internal/nativelink/modelsim.tcl
+Warning: File shhh_5th_cpld_run_msim_gate_verilog.do already exists - backing up current file as shhh_5th_cpld_run_msim_gate_verilog.do.bak11
+Probing transcript
+ModelSim-Altera Info: # Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+ModelSim-Altera Info: # do shhh_5th_cpld_run_msim_gate_verilog.do 
+ModelSim-Altera Info: # if {[file exists gate_work]} {
+ModelSim-Altera Info: # 	vdel -lib gate_work -all
+ModelSim-Altera Info: # }
+ModelSim-Altera Info: # vlib gate_work
+ModelSim-Altera Info: # vmap work gate_work
+ModelSim-Altera Info: # Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+ModelSim-Altera Info: # Modifying modelsim.ini
+ModelSim-Altera Warning: # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+ModelSim-Altera Info: #          Updated modelsim.ini.
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+. {shhh_5th_cpld.vo}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module shhh_5th_cpld
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	shhh_5th_cpld
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vlog -vlog01compat -work work +incdir+C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld {C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v}
+ModelSim-Altera Info: # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # -- Compiling module shhh_5th_cpld_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Top level modules:
+ModelSim-Altera Info: # 	shhh_5th_cpld_tb
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # vsim -t 1ps +transport_int_delays +transport_path_delays -L maxv_ver -L gate_work -L work -voptargs="+acc"  shhh_5th_cpld_tb
+ModelSim-Altera Info: # vsim +transport_int_delays +transport_path_delays -L maxv_ver -L gate_work -L work -voptargs=\"+acc\" -t 1ps shhh_5th_cpld_tb 
+ModelSim-Altera Info: # Loading work.shhh_5th_cpld_tb
+ModelSim-Altera Info: # Loading work.shhh_5th_cpld
+ModelSim-Altera Info: # Loading maxv_ver.maxv_io
+ModelSim-Altera Info: # Loading maxv_ver.maxv_lcell
+ModelSim-Altera Info: # Loading maxv_ver.maxv_asynch_lcell
+ModelSim-Altera Info: # Loading maxv_ver.maxv_lcell_register
+ModelSim-Altera Info: # SDF 10.1d Compiler 2012.11 Nov  2 2012
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # Loading instances from shhh_5th_cpld_v.sdo
+ModelSim-Altera Info: # Loading timing data from shhh_5th_cpld_v.sdo
+ModelSim-Altera Info: # ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+ModelSim-Altera Info: #    Time: 0 ps  Iteration: 0  Instance: /shhh_5th_cpld_tb File: C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v
+ModelSim-Altera Info: # 
+ModelSim-Altera Info: # add wave *
+ModelSim-Altera Info: # view structure
+ModelSim-Altera Info: # .main_pane.structure.interior.cs.body.struct
+ModelSim-Altera Info: # view signals
+ModelSim-Altera Info: # .main_pane.objects.interior.cs.body.tree
+ModelSim-Altera Info: # run -all
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzzzzz0
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 000000000000000z
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  0
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # Row PASSED
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzzzz0z
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 00000000000000z0
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  1
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzzz0zz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 0000000000000z00
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  2
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzz0zzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 000000000000z000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  3
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzz0zzzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 00000000000z0000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  4
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzz0zzzzzzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 00000000z0000000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  7
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzz0zzzzzzzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 0000000z00000000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  8
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # z0zzzzzzzzzzzzzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 0z00000000000000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: # 14
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # 0zzzzzzzzzzzzzzz
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # z000000000000000
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: # 15
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzzzzz0
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 000000000000000z
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  0
+ModelSim-Altera Info: # ERROR in signal out_column:
+ModelSim-Altera Info: # zzzzzzzzzzzzzz0z
+ModelSim-Altera Info: # expected:
+ModelSim-Altera Info: # 00000000000000z0
+ModelSim-Altera Info: # column is:
+ModelSim-Altera Info: #  1
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # Button PASSED
+ModelSim-Altera Info: # ** Note: $finish    : C:/Dropbox/Electronics/VHS/SHBHH-5th/shhh_5th_cpld/shhh_5th_cpld_tb.v(118)
+ModelSim-Altera Info: #    Time: 5300 ns  Iteration: 0  Instance: /shhh_5th_cpld_tb
+Info: NativeLink simulation flow was successful

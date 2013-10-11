@@ -290,7 +290,7 @@ void CLEDMatrix::SetLetter( unsigned char x, char letter ) {
 	for( unsigned char byte_offset = 0 ; byte_offset < 8 ; byte_offset++ ) {
 		for( unsigned char bit_offset = 0 ; bit_offset < 8 ; bit_offset++ ) {
 
-			bool value = GetBit( pgm_read_byte(font_8x8[letter - 0x20][byte_offset]), bit_offset ) ; 
+			bool value = GetBit( pgm_read_byte(&font_8x8[letter - 0x20][byte_offset]), bit_offset ) ; 
 			unsigned char data_offset = (8*2)-(bit_offset*2) ;
 
 			// ToDo: Proper x offset. 

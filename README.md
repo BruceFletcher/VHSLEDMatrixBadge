@@ -1,12 +1,12 @@
 VHSLEDMatrixBadge
 =================
-http://vancouver.hackspace.ca/wp/2013/09/30/vhs-led-matrix-badge/
+http://vanhack.ca/wp/2013/09/30/vhs-led-matrix-badge/
 
 
 
 A few months ago we were talking about the Defcon and HOPE convention badges are and how awesome it would be if we could make one for VHS. "It can't be that hard" we said. We will just put an Arduino on a board and put a LED matrix on it. It won't take longer than weekend to build, a week or so of programming and we'll be good to go. ~2 full months later just in time for SHHH 29 and we have a prototype!
 * HOPE Badge http://amd.hope.net/2010/07/postmortem/
-* DEFCON http://vancouver.hackspace.ca/wp/2013/09/30/vhs-led-matrix-badge/Badge%20http://grandideastudio.com/wp-content/uploads/history_of_defcon_electronic_badges_slides.pdf
+* DEFCON http://vanhack.ca/wp/2013/09/30/vhs-led-matrix-badge/Badge%20http://grandideastudio.com/wp-content/uploads/history_of_defcon_electronic_badges_slides.pdf
 * OSH2013 http://www.seeedstudio.com/blog/2013/08/02/open-hardware-summit-2013/
 
 Features
